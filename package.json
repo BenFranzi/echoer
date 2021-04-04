@@ -1,0 +1,27 @@
+{
+  "name": "echoer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.mjs",
+    "dev": "nodemon ./app.mjs",
+    "start:docker": "docker-compose up",
+    "dev:redis-viewer": "redis-commander"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "js-yaml": "^4.0.0",
+    "morgan": "^1.10.0",
+    "redis": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "redis-commander": "^0.7.0"
+  }
+}

@@ -1,0 +1,6 @@
+config:
+    port: 1234
+    defaultRoute: -1
+routes:
+    - origin: '8080'
+      destination: 'http://localhost:3000'
